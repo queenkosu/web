@@ -1,0 +1,116 @@
+/* 基本設定 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* コンテナ */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ヘッダー */
+header {
+    background-color: #0078D7;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* 目次（中央配置） */
+.toc {
+    background: #ffffff;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%;
+}
+
+.toc h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toc ul li {
+    margin: 10px 0;
+}
+
+.toc ul li a {
+    text-decoration: none;
+    color: #0078D7;
+    font-weight: bold;
+}
+
+.toc ul li a:hover {
+    text-decoration: underline;
+}
+
+/* メインコンテンツ */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* ボタン */
+.btn {
+    display: inline-block;
+    background-color: #0078D7;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
